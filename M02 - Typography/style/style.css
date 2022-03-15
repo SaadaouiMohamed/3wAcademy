@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Blacksword;
+    src: url(../fonts/Blacksword.otf);
+}
+@font-face {
+    font-family: cardo-bold;
+    src: url(../fonts/cardo/cardo-bold.woff);
+}
+@font-face {
+    font-family: cardo-italic;
+    src: url(../fonts/cardo/cardo-italic.woff);
+}
+@font-face {
+    font-family: cardo-regular;
+    src: url(../fonts/cardo/cardo-regular.woff);
+}
+.red{
+    color: red;
+}
+.italic{
+    font-family: cardo-italic;
+}
+.gras{
+    font-family: cardo-bold;
+}
+body{
+    width: 50%;
+    font-size: 1.4em;
+    line-height: 50px;
+     text-indent: 25px;
+     margin: auto;
+     background-color: #fbfaf5;
+}
+header div img{
+    background-repeat: repeat-x;
+}
+h1,h2,h3{
+    font-family: Blacksword;
+     font-weight: normal;
+}
+h1{
+    font-size: 4em;
+    text-align:center;
+    
+}
+h2{
+    font-size: 2.5em;
+    word-spacing: 25px;
+    text-align: justify;
+}
+h3{
+    font-size: 1.5em;
+    word-spacing: 10px;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    font-family: cardo-regular;
+}
+footer{
+    text-align: center;
+    margin-top: 78px;
+}
+q,figcaption{
+    font-family: cardo-italic;
+}
+figcaption{
+    text-align: right;
+}
+main{
+    text-align: center;
+}
+main div{
+    margin-top: 55px;
+}
+a{
+    text-decoration: none;
+    color: #f3b7c4;
+}
+footer p{
+    font-size: 50px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 0px;
+}
