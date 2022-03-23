@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "Bodega Sans";
+    src: url(fonts/BodegaSans_Black.ttf);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url("img/bg_body.svg");
+    background-color: #444444;
+    margin: 0;
+}
+.container{
+    max-width: 1500px; 
+    margin: auto;       
+}
+h1{
+    font-size: 4rem;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 2%;
+}
+h2{
+    font-size: 3rem;
+    border: 1px solid #3e3e3e;
+    border-bottom: 0;
+    border-right: 0;
+    padding-left: 1%;
+    color:#ffffff;
+    box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.4);
+}
+nav,h3{
+    font-size: 2.5rem;
+}
+h1,h2,h3,header{
+    font-family: "Bodega Sans";
+}
+span,h3,hr{
+    color: #fe9904;
+}
+
+
+/*style header*/
+header{
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #ffffff 50%, #333333 50%, #ffffff 50%, #333333 50%, #333333 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#ffffff 50%,#333333 50%,#ffffff 50%,#333333 50%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#ffffff 50%,#ffffff 50%,#333333 50%,#ffffff 50%,#333333 50%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+header nav{
+    float: right;
+    width: 50%;
+}
+header nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 2%;
+    text-align: right;
+}
+
+/*style main*/
+#section1 img{
+    width: 100%;
+    border: 12px solid white;
+}
+article{
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: auto;
+    width: 23%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 4%;
+}
+.article1{
+    margin-right: 2%;
+}
+article:last-child{
+    margin-right: 0;
+}
+article p{
+    line-height: 3.5;
+    color: #817771;
+}
+article a{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: #fe9904;
+    color: #ffffff;
+    padding: 5% 32%;
+}
+#section2 article img{
+    width: 100%;
+}
+.article2{
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.article2 p{
+    color: white;
+}
+.article2 a{
+    font-size: 4rem;
+    margin-left: 6%;
+    color: #ffffff;
+}
+
+/*style footer*/
+footer{
+    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+    border: 1px solid #333333;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+
+}
+footer div{
+    text-align: center;
+    color: white;
+}
+footer img{
+    width: 2%;
+    margin-top: 59px;
+}
+footer nav a{
+font-size: 1.5rem;
+color: #ffffff;
+margin:2%;
+}
+
+/*media query*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    body{
+        width: 80%;
+        margin:auto
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        margin-top: 5%;
+    }
+    header nav{
+        padding:2% 3%;
+    }
+    header nav a{
+        margin-top: 4%;
+    }
+    h1{
+        font-size: 3.5rem;
+        margin-top: 6%;
+        line-height: 2.5;
+    }
+    #section1 img{
+        width: 100%;
+    }
+    article{
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 4%;
+        margin-top: 6%;
+        padding-bottom: 8%;
+    }
+    .article1{
+        margin-right: auto;
+    }
+    article:last-child{
+        margin-right:auto;
+    }
+    article p{
+        margin-bottom: 6%;
+    }
+    #section3{
+        text-align: center;
+    }
+    #section3 h2{
+        text-align: left;
+    }
+    #section3 a{
+        display:block;
+        margin-top:5%;
+    }
+    #section3 video{
+        width: 80%;
+        height: 30%;
+        margin-top: 5%;
+    }
+    footer{
+        box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.1);
+    }
+    footer img{
+        width:7%;
+    }
+}
+
+@media screen and (max-width:767px){
+    body{
+        width: 80%;
+        margin:auto;
+    }
+    .container,footer{
+        width: 49%;
+        margin: auto;
+    }
+    header{
+        width: 68%;
+        margin: auto;
+        padding-bottom: 48%;
+        margin-top: 6%;
+        padding-right: 11%;
+    }
+    header nav a{
+        margin-top: 15%;
+    }
+    header nav{
+        padding-top: 26%;
+    }
+    header img{
+        padding-top: 21%;
+        width: 100%;
+    }
+    article{
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 4%;
+        margin-top: 6%;
+        padding-bottom: 8%;
+    }
+    .article1{
+        margin-right: auto;
+    }
+    article:last-child{
+        margin-right:auto;
+    }
+    #section3 a{
+        display:block;
+        margin-top:5%;
+        text-align: center;
+    }
+    #section3 video{
+        width: 298px;
+        height: 214px;
+    }
+    footer{
+        margin-top: 20%;
+
+    }
+    footer h4{
+        padding-top: 20%;
+    }
+    footer p{
+        line-height: 5.5;
+        color: #ffffff;
+    }
+    footer nav a{
+        margin: 10%;
+    }
+    footer a{
+        color: #ffffff;
+    }
+    footer img{
+        width: 5%;
+    }
+    
+}
